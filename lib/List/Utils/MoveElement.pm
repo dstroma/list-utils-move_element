@@ -42,11 +42,7 @@ __END__
 
 =head1 NAME
 
-List::Utils::MoveElement
-
-=head ABSTRACT
-
-Move elements of a list with XS (if available) or Pure Perl functions.
+List::Utils::MoveElement - Move elements of a list, optionally with XS.
 
 =head1 SYNOPSIS
 
