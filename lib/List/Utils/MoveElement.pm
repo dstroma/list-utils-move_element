@@ -44,6 +44,10 @@ __END__
 
 List::Utils::MoveElement
 
+=head ABSTRACT
+
+Move elements of a list with XS (if available) or Pure Perl functions.
+
 =head1 SYNOPSIS
 
   use List::Utils::MoveElement;
