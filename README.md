@@ -1,6 +1,6 @@
 # NAME
 
-List::Utils::MoveElement - It's new $module
+List::Utils::MoveElement - Perl module for moving elements of a list
 
 # SYNOPSIS
 
@@ -8,7 +8,8 @@ List::Utils::MoveElement - It's new $module
 
 # DESCRIPTION
 
-List::Utils::MoveElement is ...
+List::Utils::MoveElement is a Perl module that provides XS or Pure Perl
+functions for moving list elements left, right, to_beginning, or to_end.
 
 # LICENSE
 
