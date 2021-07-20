@@ -1,5 +1,5 @@
 name = "List-Utils-MoveElement"
-module_maker="ModuleBuildTiny"
+module_maker="ModuleBuild"
 static_install = "auto"
 allow_pureperl = 1
 
