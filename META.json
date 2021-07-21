@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Move elements of a list, optionally with XS.",
    "author" : [
-      "Dondi Michael Stroma <dstroma@gmail.com>"
+      "Dondi Michael Stroma, <dstroma@gmail.com>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.1.12, CPAN::Meta::Converter version 2.150010",
@@ -28,7 +28,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.035"
+            "Module::Build" : "0.4005"
          }
       },
       "develop" : {
@@ -54,5 +54,5 @@
    "release_status" : "unstable",
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 2.27400",
-   "x_static_install" : 1
+   "x_static_install" : 0
 }
