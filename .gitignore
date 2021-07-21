@@ -29,3 +29,6 @@ cover_db/
 MYMETA.*
 
 /List-Utils-MoveElement-*
+
+.DS_Store
+
