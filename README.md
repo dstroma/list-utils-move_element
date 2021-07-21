@@ -20,6 +20,12 @@ List::Utils::MoveElement - Move elements of a list, optionally with XS.
     @array = move_element_right(0, @array);
     # returns (banana apple cherry date eggplant)
 
+# INSTALL
+
+The XS module is built by default. To enable the pure Perl version only, pass
+`--pureperl-only` to Build.PL or, if installing via cpanm, `--pp` (or
+`--pureperl`).
+
 # DESCRIPTION
 
 List::Utils::Move provides four functions for moving an element of an array

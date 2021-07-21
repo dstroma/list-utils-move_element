@@ -52,6 +52,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/dstroma/list-utils-move_element/issues"
+      },
+      "homepage" : "https://github.com/dstroma/list-utils-move_element",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/dstroma/list-utils-move_element.git",
+         "web" : "https://github.com/dstroma/list-utils-move_element"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 2.27400",
    "x_static_install" : 0
