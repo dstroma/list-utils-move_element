@@ -1,6 +1,8 @@
 Revision history for Perl extension List-Utils-MoveElement
 
 {{$NEXT}}
+
+0.02 2021-07-22T15:46:24Z
     - fix in documentation
 
 0.01 2021-07-22T15:25:30Z

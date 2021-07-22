@@ -36,35 +36,35 @@ functions return the new array without modifying the original.
 
     @array = move_element_left(N, @array)
 
-Moves element `N` of `@array` left by one place by swapping
+Moves element at index `N` of `@array` left by one place by swapping
 element `N` with element `N-1`.
 
 If `N` is already the first element, it does nothing.
 
-## move\_right
+## move\_element\_right
 
     @array = move_element_right(N, @array)
 
-Moves element `N` of `@array` right by one place by swapping
+Moves element at index `N` of `@array` right by one place by swapping
 element `N` with element `N+1`.
 
 If `N` is already the last element, it does nothing.
 
-## to\_beginning
+## move\_element\_to\_beginning
 
     @array = move_element_to_beginning(N, @array)
 
-Moves element `N` of `@array` to the beginning of the array, shifting
+Moves element at index `N` of `@array` to the beginning of the array, shifting
 elements to the right as necessary. In other words, element `N` becomes
 element `0` and elements `0..N-1` become elements `1..N`.
 
 If `N` is already the first element, it does nothing.
 
-## to\_end
+## move\_element\_to\_end
 
     @array = move_element_to_end(N, @array)
 
-Moves element `N` of `@array` to the end of the array, shifting
+Moves element at index `N` of `@array` to the end of the array, shifting
 elements to the left as necessary. In other words, element `N` becomes
 element `$#array` and elements `N..$#array` become
 elements `N+1..$#array`.

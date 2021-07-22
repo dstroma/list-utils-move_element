@@ -6,7 +6,7 @@ use warnings;
 use Exporter;
 
 BEGIN {
-  our $VERSION   = qw/0.01/;
+  our $VERSION   = qw/0.02/;
   our @ISA       = qw/Exporter/;
   our @EXPORT    = qw/move_element_left move_element_right move_element_to_beginning move_element_to_end/;
   our $xs_loaded;
