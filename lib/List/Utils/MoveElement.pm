@@ -78,35 +78,35 @@ functions return the new array without modifying the original.
 
     @array = move_element_left(N, @array)
 
-Moves element C<N> of C<@array> left by one place by swapping
+Moves element at index C<N> of C<@array> left by one place by swapping
 element C<N> with element C<N-1>.
 
 If C<N> is already the first element, it does nothing.
 
-=head2 move_right
+=head2 move_element_right
 
     @array = move_element_right(N, @array)
 
-Moves element C<N> of C<@array> right by one place by swapping
+Moves element at index C<N> of C<@array> right by one place by swapping
 element C<N> with element C<N+1>.
 
 If C<N> is already the last element, it does nothing.
 
-=head2 to_beginning
+=head2 move_element_to_beginning
 
     @array = move_element_to_beginning(N, @array)
 
-Moves element C<N> of C<@array> to the beginning of the array, shifting
+Moves element at index C<N> of C<@array> to the beginning of the array, shifting
 elements to the right as necessary. In other words, element C<N> becomes
 element C<0> and elements C<0..N-1> become elements C<1..N>.
 
 If C<N> is already the first element, it does nothing.
 
-=head2 to_end
+=head2 move_element_to_end
 
     @array = move_element_to_end(N, @array)
 
-Moves element C<N> of C<@array> to the end of the array, shifting
+Moves element at index C<N> of C<@array> to the end of the array, shifting
 elements to the left as necessary. In other words, element C<N> becomes
 element C<$#array> and elements C<N..$#array> become
 elements C<N+1..$#array>.
